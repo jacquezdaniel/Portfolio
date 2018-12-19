@@ -49,3 +49,5 @@ $(window).on("load",function() {
   fade();
   $(window).scroll(function() {fade();});
 });
+
+$('*').css('overflow', 'hidden');
